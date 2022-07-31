@@ -4,11 +4,13 @@ import com.whitecatsama.delicious_take_out.common.Code;
 import com.whitecatsama.delicious_take_out.common.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
@@ -34,5 +36,10 @@ public class CommonController {
                 return new Result(Code.UPLOAD_FAILED,"上传失败");
             }
         return new Result(Code.UPLOAD_SUCCESS,fileName);
+    }
+    @GetMapping("/download")
+    public void downLoad(String name, HttpServletResponse response){
+
+
     }
 }
