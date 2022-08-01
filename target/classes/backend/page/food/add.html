@@ -345,6 +345,7 @@
                 // this.ruleForm.id = res.data.data.categoryId
                 // this.imageUrl = res.data.data.image
                 this.imageUrl = `/common/download?name=${res.data.image}`
+                this.imageUrl = `/common/download?name=${res.data.image}`
               } else {
                 this.$message.error(res.msg || '操作失败')
               }
@@ -390,7 +391,7 @@
           // 获取菜品分类
           getDishList () {
             getCategoryList({ 'type': 1 }).then(res => {
-              if (res.code === 1) {
+              if (res.code === 10031) {
                 this.dishList = res.data
               } else {
                 this.$message.error(res.msg || '操作失败')
