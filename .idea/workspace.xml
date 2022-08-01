@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="400585b4-9763-4242-b259-18ecfb40702e" name="Default Changelist" comment="1.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/DishController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/domain/DishFlavor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/mapper/DishFlavorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/DishFlavorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/serviceimpl/DishFlavorServiceImpl.java" afterDir="false" />
+    <list default="true" id="400585b4-9763-4242-b259-18ecfb40702e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/CommonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/food/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/food/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/controller/CommonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/controller/CommonController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +80,7 @@
       <workItem from="1659238327457" duration="23685000" />
       <workItem from="1659282238160" duration="5957000" />
       <workItem from="1659311766447" duration="4135000" />
+      <workItem from="1659320418560" duration="1442000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1659287499199</created>
@@ -106,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659311877707</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2022-8-1 10:23:34">
+      <created>1659320629861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659320629861</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,17 +112,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0" />
     <MESSAGE value="1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
+    <MESSAGE value="2022-8-1 10:23:34" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-8-1 10:23:34" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1659262226024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1659262226024" />
-    <state x="460" y="112" key="CommitChangelistDialog2" timestamp="1659311875827">
+    <state x="460" y="112" key="CommitChangelistDialog2" timestamp="1659322111117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="460" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1659311875827" />
+    <state x="460" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1659322111117" />
     <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1659315951283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -178,10 +176,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1659147585215" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1659311894034">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1659322121334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1659311894034" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1659322121334" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1659252006618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -190,6 +188,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="511" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1659247553478" />
+    <state x="480" y="311" key="git4idea.merge.GitPullDialog" timestamp="1659322016212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="480" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659322016212" />
     <state x="614" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1659263683518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
