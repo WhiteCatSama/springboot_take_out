@@ -6,7 +6,7 @@
 
 ### 1.1.1创建数据库
 
-![image-20220730093639686](C:\Users\WhiteCatSama\AppData\Roaming\Typora\typora-user-images\image-20220730093639686.png) 
+![image-20220730093639686](https://github.com/WhiteCatSama/springboot_take_out/blob/master/src/main/resources/shotcut/image-20220730093639686.png) 
 
 ### 1.1.2表的创建
 
@@ -14,7 +14,7 @@
 
 employee员工表、category菜品和套餐分类表、dish菜品表、setmeal套餐表、setmeal_dish套餐菜品关系表、dish_flavor菜品口味关系表、user用户表(C端)、address_book地址簿表、shopping_cart购物车表、orders订单表、order_detail订单明细表
 
-![image-20220730094046409](C:\Users\WhiteCatSama\AppData\Roaming\Typora\typora-user-images\image-20220730094046409.png) 
+![image-20220730094046409](https://github.com/WhiteCatSama/springboot_take_out/blob/master/src/main/resources/shotcut/image-20220730094046409.png) 
 
 **建表语句**
 
@@ -213,9 +213,9 @@ CREATE TABLE `user` (
 
 ### 1.2.1创建Spring Boot工程
 
-![image-20220730095722425](C:\Users\WhiteCatSama\AppData\Roaming\Typora\typora-user-images\image-20220730095722425.png) 
+![image-20220730095722425](https://github.com/WhiteCatSama/springboot_take_out/blob/master/src/main/resources/shotcut/image-20220730095722425.png) 
 
-![image-20220730095819054](C:\Users\WhiteCatSama\AppData\Roaming\Typora\typora-user-images\image-20220730095819054.png) 
+![image-20220730095819054](https://github.com/WhiteCatSama/springboot_take_out/blob/master/src/main/resources/shotcut/image-20220730095819054.png) 
 
 ### 1.2.2导入依赖
 
@@ -345,7 +345,7 @@ mybatis-plus:
 
 将前端页面放入static或者template目录下。
 
-![image-20220730102401930](C:\Users\WhiteCatSama\AppData\Roaming\Typora\typora-user-images\image-20220730102401930.png) 
+![image-20220730102401930](https://github.com/WhiteCatSama/springboot_take_out/blob/master/src/main/resources/shotcut/image-20220730102401930.png) 
 
 如果放在其他目录下需要编写配置类，继承WebMvcConfigurationSupport类重写addResourceHandlers方法进行静态资源映射，将对应访问路径放行，具体操作如下：
 
