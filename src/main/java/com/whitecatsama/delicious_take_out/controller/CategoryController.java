@@ -9,8 +9,6 @@ import com.whitecatsama.delicious_take_out.service.CategoryService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 
@@ -28,9 +26,10 @@ public class CategoryController {
     }
 
     @GetMapping("/page")
-    public Result page(int page,int pageSize){
+    public Result page(int page,int pageSize,String name){
         Page<Category> pageInfo = new Page<>(page,pageSize);
         LambdaQueryWrapper<Category> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.like(name!=null,Category::getName,name);
         queryWrapper.orderByAsc(Category::getSort);
         categoryService.page(pageInfo,queryWrapper);
         return new Result(Code.GET_SUCCESS,pageInfo,"查询成功");

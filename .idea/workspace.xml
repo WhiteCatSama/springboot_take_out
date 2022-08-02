@@ -1,8 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="400585b4-9763-4242-b259-18ecfb40702e" name="Default Changelist" comment="">
+    <list default="true" id="400585b4-9763-4242-b259-18ecfb40702e" name="Default Changelist" comment="2022-8-1 10:49:01">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/SetmealController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/domain/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/domain/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/domain/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/domain/SetmealDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/dto/DishDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/dto/OrdersDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/dto/SetmealDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/mapper/AddressBookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/mapper/SetmealDishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/AddressBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/OrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/SetmealDishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/serviceimpl/AddressBookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/serviceimpl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/serviceimpl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/serviceimpl/SetmealDishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/serviceimpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/00874a5e-0df2-446b-8f69-a30eb7d88ee8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/057dd338-e487-4bbc-a74c-0384c44a9ca3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/072c4299-ba84-4da8-84c3-ba8935185829.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/09d8fb8f-a33a-4d17-8aba-d7b56971900f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/0a3b3288-3446-4420-bbff-f263d0c02d8e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/0f252364-a561-4e8d-8065-9a6797a6b1d3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/0f4bd884-dc9c-4cf9-b59e-7d5958fec3dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/1405081e-f545-42e1-86a2-f7559ae2e276.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/18b8811a-9859-4bfc-b9a2-e9d0a7500bb1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/1b509853-a85d-4526-8e4b-4807d0bba068.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/1fdbfbf3-1d86-4b29-a3fc-46345852f2f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/2a2e9d66-b41d-4645-87bd-95f2cfeed218.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/2a50628e-7758-4c51-9fbb-d37c61cdacad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/2e93b9be-f89a-44c7-b673-ca4c7233a134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/2e96a7e3-affb-438e-b7c3-e1430df425c9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/324313ee-4893-4f6e-abcc-22de01ffe236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/392d6fb7-a098-44bf-8c3c-fbb63d4c2abc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/3fabb83a-1c09-4fd9-892b-4ef7457daafa.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/48860192-7a70-4155-8f99-f90020b7584c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/4a0e7576-a92e-4c81-b1d7-629d2ebc2f9c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/4a91c7c3-57b7-454f-bec1-56ff56bff1c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/4be97576-2a29-473a-90b3-f93c6946e918.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/55af84f4-1879-4a06-935a-83e2a5d606c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/583df4b7-a159-4cfc-9543-4f666120b25f.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/5b8d2da3-3744-4bb3-acdc-329056b8259d.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/61d20592-b37f-4d72-a864-07ad5bb8f3bb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/678a32ab-78b3-4926-8ea7-13fdd5373ac4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/6a587dcb-4b33-49ac-8fe6-7d033b76d354.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/717c051a-fa8c-4caa-9e96-db737596c353.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/740c79ce-af29-41b8-b78d-5f49c96e38c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/75f61815-36c5-4113-9db4-70ab617dea77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/8165afd9-d3dc-42b1-940a-20d6fb76054d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/8dcfda14-5712-4d28-82f7-ae905b3c2308.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/9cae6add-e7be-4e2b-8bc9-68a89670dc81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/9ec6fc2d-50d2-422e-b954-de87dcd04198.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/a01b1433-4800-47cb-b270-0091fd642d1a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/a53a4e6a-3b83-4044-87f9-9d49b30a8fdc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/ad3c663e-4ee3-4b9f-af68-6f9b0e6331ee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/b1550cb0-a2f7-4c56-9470-9ec243f6aaf6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/c949b7be-0fe8-4e28-a64d-64ee2aec5ede.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/c99e0aab-3cb7-4eaa-80fd-f47d4ffea694.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/cc512fcb-8939-4e8b-b04f-b4fde5482eac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/cd87e402-6876-48ef-af6e-6e2ca86289f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/d27f06e4-a2af-4edc-ac01-d18e586b88d7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/d2f61d70-ac85-4529-9b74-6d9a2255c6d7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/e1225c33-f713-4e8d-8107-764c3af32d46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/e476f679-5c15-436b-87fa-8c4e9644bf33.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/ee04a05a-1230-46b6-8ad5-1a95b140fff3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/ef2b73f2-75d1-4d3a-beea-22da0e1421bd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/f966a38e-0780-40be-bb52-5699d13cb3d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/fdfe63a1-c86c-4533-b8ab-627cfd8ef8c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/fe4f8588-9a65-43e4-9968-109e228db17d.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/mapper/DishMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/mapper/DishMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/DishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/serviceimpl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/service/serviceimpl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/combo/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/food/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/food/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/food/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/food/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/controller/CommonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/controller/CommonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/service/DishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/service/DishService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/service/serviceimpl/DishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whitecatsama/delicious_take_out/service/serviceimpl/DishServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +124,16 @@
     </option>
   </component>
   <component name="ProjectId" id="2Cdy4zfnjUtRvY8CkTLskO1BcGh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -41,16 +141,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/domain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/whitecatsama/delicious_take_out/dto" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\springmvc\springmvc\delicious_take_out\src\main\resources\shotcut" />
       <recent name="F:\workspace\springmvc\springmvc\delicious_take_out\src\main\resources\backend\page\food" />
       <recent name="F:\workspace\springmvc\springmvc\delicious_take_out\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\springmvc\springmvc\delicious_take_out\src\main\java\com\whitecatsama\delicious_take_out\dto" />
       <recent name="F:\workspace\springmvc\springmvc\delicious_take_out\src\main\java\com\whitecatsama\delicious_take_out\domain" />
+      <recent name="F:\workspace\springmvc\springmvc\delicious_take_out\src\main\resources\pic" />
       <recent name="F:\workspace\springmvc\springmvc\delicious_take_out\src\main\java\com\whitecatsama\delicious_take_out\controller" />
       <recent name="F:\workspace\springmvc\springmvc\delicious_take_out\src\main\resources\static" />
     </key>
@@ -80,7 +183,10 @@
       <workItem from="1659238327457" duration="23685000" />
       <workItem from="1659282238160" duration="5957000" />
       <workItem from="1659311766447" duration="4135000" />
-      <workItem from="1659320418560" duration="1442000" />
+      <workItem from="1659320418560" duration="1857000" />
+      <workItem from="1659322443382" duration="19978000" />
+      <workItem from="1659401195352" duration="7895000" />
+      <workItem from="1659413580853" duration="15352000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1659287499199</created>
@@ -103,83 +209,108 @@
       <option name="project" value="LOCAL" />
       <updated>1659320629861</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2022-8-1 10:48:17">
+      <created>1659322100766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659322100766</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2022-8-1 10:49:01">
+      <created>1659322144653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659322144653</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1.0" />
     <MESSAGE value="1.1" />
     <MESSAGE value="2022-8-1 10:23:34" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-8-1 10:23:34" />
+    <MESSAGE value="2022-8-1 10:48:17" />
+    <MESSAGE value="2022-8-1 10:49:01" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-8-1 10:49:01" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1659262226024">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1659324120646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1659262226024" />
-    <state x="460" y="112" key="CommitChangelistDialog2" timestamp="1659322111117">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1659324120646" />
+    <state x="630" y="582" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1659323514356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="460" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1659322111117" />
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1659315951283">
+    <state x="630" y="582" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659323514356" />
+    <state x="460" y="112" key="CommitChangelistDialog2" timestamp="1659430823445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951283" />
-    <state width="1877" height="344" key="GridCell.Tab.0.center" timestamp="1659315951283">
+    <state x="460" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1659430823445" />
+    <state x="136" y="86" key="DiffContextDialog" timestamp="1659337090381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951283" />
-    <state width="1877" height="344" key="GridCell.Tab.0.left" timestamp="1659315951283">
+    <state x="136" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659337090381" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1659430823605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951283" />
-    <state width="1877" height="344" key="GridCell.Tab.0.right" timestamp="1659315951283">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659430823605" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1659430823605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951283" />
-    <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1659315951284">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659430823605" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1659430823605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951284" />
-    <state width="1877" height="344" key="GridCell.Tab.1.center" timestamp="1659315951284">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659430823605" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1659430823605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951284" />
-    <state width="1877" height="344" key="GridCell.Tab.1.left" timestamp="1659315951283">
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659430823605" />
+    <state width="1877" height="284" key="GridCell.Tab.1.bottom" timestamp="1659430823605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951283" />
-    <state width="1877" height="344" key="GridCell.Tab.1.right" timestamp="1659315951284">
+    <state width="1877" height="284" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659430823605" />
+    <state width="1877" height="284" key="GridCell.Tab.1.center" timestamp="1659430823605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951284" />
-    <state width="1877" height="344" key="GridCell.Tab.2.bottom" timestamp="1659315951284">
+    <state width="1877" height="284" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659430823605" />
+    <state width="1877" height="284" key="GridCell.Tab.1.left" timestamp="1659430823605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951284" />
-    <state width="1877" height="344" key="GridCell.Tab.2.center" timestamp="1659315951284">
+    <state width="1877" height="284" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659430823605" />
+    <state width="1877" height="284" key="GridCell.Tab.1.right" timestamp="1659430823605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951284" />
-    <state width="1877" height="344" key="GridCell.Tab.2.left" timestamp="1659315951284">
+    <state width="1877" height="284" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659430823605" />
+    <state width="1877" height="344" key="GridCell.Tab.2.bottom" timestamp="1659430418117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951284" />
-    <state width="1877" height="344" key="GridCell.Tab.2.right" timestamp="1659315951284">
+    <state width="1877" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659430418117" />
+    <state width="1877" height="344" key="GridCell.Tab.2.center" timestamp="1659430418116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659315951284" />
+    <state width="1877" height="344" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659430418116" />
+    <state width="1877" height="344" key="GridCell.Tab.2.left" timestamp="1659430418116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659430418116" />
+    <state width="1877" height="344" key="GridCell.Tab.2.right" timestamp="1659430418116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659430418116" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1659147585215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1659147585215" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1659322121334">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1659322474710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1659322121334" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1659322474710" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1659252006618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,9 +323,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="480" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659322016212" />
-    <state x="614" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1659263683518">
+    <state x="614" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1659423813908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1659263683518" />
+    <state x="614" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1659423813908" />
   </component>
 </project>

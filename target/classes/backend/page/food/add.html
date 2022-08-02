@@ -336,7 +336,7 @@
           async init () {
             queryDishById(this.id).then(res => {
               console.log(res)
-              if (String(res.code) === '1') {
+              if (String(res.code) === '10031') {
                 this.ruleForm = { ...res.data }
                 this.ruleForm.price = String(res.data.price/100)
                 this.ruleForm.status = res.data.status == '1'
@@ -391,7 +391,7 @@
           // 获取菜品分类
           getDishList () {
             getCategoryList({ 'type': 1 }).then(res => {
-              if (res.code === 10031) {
+              if (String(res.code) === '10031') {
                 this.dishList = res.data
               } else {
                 this.$message.error(res.msg || '操作失败')
@@ -461,7 +461,7 @@
                 if (this.actionType == 'add') {
                   delete params.id
                   addDish(params).then(res => {
-                    if (res.code === 1) {
+                    if (String(res.code) === '10021') {
                       this.$message.success('菜品添加成功！')
                       if (!st) {
                         this.goBack()
@@ -490,7 +490,7 @@
                 } else {
                   delete params.updateTime
                   editDish(params).then(res => {
-                    if (res.code === 1) {
+                    if (String(res.code) === '10041') {
                       this.$message.success('菜品修改成功！')
                       this.goBack()
                     } else {

@@ -170,7 +170,7 @@
               name: this.input ? this.input : undefined
             }
             await getSetmealPage(params).then(res => {
-              if (String(res.code) === '1') {
+              if (String(res.code) === '10031') {
                 this.tableData = res.data.records || []
                 this.counts = res.data.total
               }
@@ -214,7 +214,7 @@
               'cancelButtonText': '取消',
             }).then(() => {
               deleteSetmeal(type === '批量' ? this.checkList.join(',') : id).then(res => {
-                if (res.code === 1) {
+                if (String(res.code) === '10051') {
                   this.$message.success('删除成功！')
                   this.handleQuery()
                 } else {
@@ -247,7 +247,7 @@
             }).then(() => {
               // 起售停售---批量起售停售接口
               setmealStatusByStatus(params).then(res => {
-                if (res.code === 1) {
+                if (String(res.code) === '10041') {
                   this.$message.success('套餐状态已经更改成功！')
                   this.handleQuery()
                 } else {
